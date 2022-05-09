@@ -1,3 +1,4 @@
+{{ config(materialized='view') }}
 select categories,
 course_name,
 course_rating,
