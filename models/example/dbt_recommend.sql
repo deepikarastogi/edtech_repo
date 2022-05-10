@@ -1,6 +1,6 @@
 {{ config(materialized='view') }}
 select 
-course_name,
+course_name as cr,
 difficulty_level as dif,
 user_profile,
 marks,
